@@ -827,7 +827,7 @@ h2 {
 }
 
 .tokenomics__illustration {
-  width: 44%;
+  width: 35%;
   transform: rotate(-3.3deg);
   border: 6px solid #ffffff;
   box-shadow: 4px 10px 0px black;
@@ -1045,7 +1045,24 @@ h2 {
 
 /*# sourceMappingURL=main.css.map */
 
+.hero_img {
+  width: 500px;
+  border: 5px solid #000;
+  border-radius: 8px;
+}
+.abt_img {
+  width: 450px;
+  height: 400px;
+}
 @media screen and (max-width: 768px) {
+  .hero_img {
+    width: 100%;
+    border: 5px solid #000;
+  }
+  .abt_img {
+    width: 100%;
+    height: auto;
+  }
   .dis {
     display: none;
   }
